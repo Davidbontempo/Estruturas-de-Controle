@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:aliceblue
+}
+
+body {
+    background-image: url('fundoAzul.jpg');
+    background-size: cover; /* Ajusta a imagem ao tamanho da tela */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    background-image: linear-gradient(45deg, rgba(28, 27, 27, 0.97), rgba(0, 61, 105, 0.95));
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 50px;
+    align-content: center;
+    width: 20%;
+    border-radius: 50px;
+    box-shadow: 8px 8px 5px rgba(13, 13, 13, 0.3);
+}
+
+p {
+    color: aliceblue;
+    text-align: left;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ffd000 ;
+    border-radius: 10px;
+}
+
+#Total { 
+    color: rgb(48, 48, 48);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffd000;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 30px;
+    color:rgb(255, 187, 0);
+    text-align: left;
+}
+
+n1 {
+    color:azure;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    padding: 0, 7px;
+}
+
+label {
+    padding: 5px;
+    margin-top: 8px;
+    text-align: left;
+    color: azure;
+    font-size: 16px;
+}
+
+input {
+    width: 97%;
+    border-radius: 10px;
+    border-width: 1px;
+    margin: 3px;
+    font-size: 15px;
+    padding: 7px;
+    padding-left: 10px;
+    color: rgb(48, 48, 48)
+}
+
+select {
+    width: 100%;
+    border-radius: 10px;
+    border-width: 1px;
+    margin: 3px;
+    font-size: 15px;
+    padding: 7px;
+    color: rgb(48, 48, 48)
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: black;
+    color:rgb(54, 54, 54);
+
+    background-image: linear-gradient(45deg, #ffd000, rgb(255, 183, 0));
+    box-shadow: 5px 5px 3px rgba(120, 120, 120, 0.5);
+
+    border: none;
+    outline: none;
+    transition: background 0.3s;
+}

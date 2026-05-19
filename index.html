@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Controle de Gastos - </title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <n1><span class="destaque">EBAC:</span> Controle de Gastos Financeiros</n1>
+        <label for="">Digite aqui o valor do gasto:</label>
+        <input id="valor" type="number" placeholder="Valor em reais">
+
+        <label for="">Selecione a categoria do gasto:</label>
+        <select id="categoria">
+            <option>Alimentação</option>
+            <option>Transportes</option>
+            <option>Lazer</option>
+            <option>Outros</option>
+        </select>
+        <label for="">Clique no botão para adicionar o gasto:</label>
+        <button type="button" onclick="adicionarGasto()">Adicionar gasto</button>
+        <br>
+
+            <p id="Alimentação">Alimentação: R$0,00</p>
+            <p id="Transportes">Transportes: R$0,00</p>
+            <p id="Lazer">Lazer: R$0,00</p>
+            <p id="Outros">Outros: R$0,00</p>
+            <p id="Total">Total: R$0,00</p>
+
+    </main>
+</body>
+</html>
