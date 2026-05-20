@@ -9,7 +9,7 @@ const matrizGastos = [
 
 //Funções utilitárias
 const obterElemento = (id) => document.getElementById(id);
-const valorNegativo = (valor) => isNaN || valor <= 0; //Bloqueia valores vazios, zeros e negativos
+const valorNegativo = (valor) => valor <= 0; //Bloqueia valores vazios, zeros e negativos
 const somaValor = (total, valor) => total + valor;
 
 //Limpar os campos de entrada
